@@ -1,0 +1,66 @@
+ body {
+     background-color: hsl(233, 47%, 7%);
+     padding: 5rem;
+     font-size: 15px;
+ }
+
+ .container {
+     max-width: 1440px;
+     margin-inline: auto;
+     padding-inline: 2rem;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
+ .left-side {
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     background: hsl(244, 38%, 16%);
+     padding: 5rem;
+ }
+
+ .title {
+     font-size: 2rem;
+     font-weight: bold;
+     color: hsl(0, 0%, 100%);
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .description {
+     font-size: 1.25rem;
+     font-weight: lighter;
+     color: hsla(0, 0%, 100%, 0.75);
+     font-family: 'Roboto', sans-serif;
+ }
+
+
+ .right-side {
+     background: pink;
+ }
+
+ .img {
+
+     opacity: 0.5;
+     height: 100%;
+     width: 100%;
+     aspect-ratio: 1 / 1;
+     object-fit: cover;
+ }
+
+ .bottom-side {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-top: 5rem;
+     gap: 1rem;
+ }
+
+ .bottom-desc {
+     font-size: .8rem;
+     color: hsla(0, 0%, 100%, 0.6);
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .bottom-twice {
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+ }
